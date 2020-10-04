@@ -1,0 +1,45 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+
+
+    "manifest_version": 2,
+    "name": "adblocker",
+    "version": "2.10.2",
+    "description": "Simply Block Ads on almost all sites like youtube,google and more",
+    "author": "Kumar Rajmani Bapat",
+    
+
+    "page_action": {
+        "default_icon": "128.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+		"16":  "16.png",
+        "48":  "48.png",
+        "64":  "64.png",
+	    "128": "128.png"
+	},
+    "background": {
+        "scripts": ["mainevent.js"],
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*",
+                "*://www.google.com/*",
+                "*://web.whatsapp.com/*",
+                "*://en.wikipedia.org/*",
+                "*://www.bing.com/*",
+                "*://www.StartPage.com/*",
+                "*://www.yandex.com/*",
+                "http://*/*",
+                "https://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
