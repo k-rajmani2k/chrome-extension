@@ -15,10 +15,10 @@ Firstly  just click "Add to Chrome," then visit your favourite website do the go
 Now you can simply browse freely without any seeing Annoying,Unobtrusive and Unwanted ads or can go to youtube and enjoy watching videos adfree 
 
 
-For Support Indians can donate at  upi id- k.rajmani@paytm 
+For Support Indians can contribute at  upi id- k.rajmani@paytm 
 and Foreigners/NRI's  using below link
 http://paypal.me/paramsiddha
-please donate to support the efforts and we will bring more such extensions
+please contribute to support the efforts and we will bring more such extensions
 and Please give star , pull, fork into it ....
 
 Thanks
